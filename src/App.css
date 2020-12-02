@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+html, body, #root, #root>div {
+  height: 100%;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body,p,h1,h2,h3,h4,h5{
+  color:white !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.App {
+  background-image:url(./images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:center;
+  align-items:center;
 }
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron {
+  background-color: rgba(245, 245, 245, 0.33) !important ;
+  backdrop-filter: blur(3px);
+  text-align: center;
+  border:1px solid white !important;
+  border-radius: 0 !important;
+  width: 500px;
 }
+
+.search-bar{
+  width: 70%;
+  margin-right: 10px;
+}
+
